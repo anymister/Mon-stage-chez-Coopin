@@ -1,0 +1,264 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{natbib}
+\usepackage{graphicx}
+\begin{figure}
+\centering
+\includegraphics[scale=0.07]{ucp.jpg}
+\label{fig:ucp}\\%
+\end{figure}
+\title{Rapport de stage
+}
+
+\begin{document}
+\maketitle
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.9]{l.png}
+\label{fig:ucp}\\%
+\newline
+\end{figure}
+\begin{center}
+\author{Auteurs :}
+\\%
+\centering
+Anis MEZRAG 
+\end{center}
+\begin{center}
+\centering
+\author{Tuteur pédagogique :}
+\\%
+Dimitrios KOTZINOS
+\end{center}
+\begin{center}
+\newline
+\author{Maitre de stage :}
+\\%
+Nidal FAKIH
+\end{center}
+ \newpage
+    \tableofcontents
+\newpage
+\part{Remerciements}
+\paragraph{}
+\setlength{\parindent}{2cm}
+Je tiens tout d’abord à remercier Nidal FAKIH, mon maître de stage qui m’a aidé et conseillé tout au long du stage. 
+Ensuite, j’aimerais remercier ma référente Albertina DE FONTE qui m’a permis de faire ce
+stage dans son association. Elle m’a aussi aidée tout au long du stage. Je remercie également les personnes avec qui j’ai travaillé :  Melyanah et Ryan "Etudiants en management", Manuela PENA PENA, "Docteure en psychologie" ainsi que Laetitia. Ils m’ont
+étés d’une grande aide quant au travail d'équipe ainsi qu'a mettre en place le contenu de la plateforme.
+\newpage
+\section{Résumé}
+\paragraph{}
+\setlength{\parindent}{2cm}
+L’association Donuts avait besoin de développer une plateforme numérique pour le projet Coopin qui consiste à la mise en relation entre pairs. En effet, il existe aucune plateforme précédente. 
+\paragraph{}
+\setlength{\parindent}{2cm}
+L’objectif du stage était de developper la premiere version du site web, l'application web CoopinCook ainsi que la supérvision d'une équipe de developpeurs pour le développement de l'application web CoopinCoach. 
+\paragraph{}
+\setlength{\parindent}{2cm}
+Le site vitrine a été réaliser en grande partie à partir d'un model WordPress. Le langage utilisé pour les fonctionnalités c'est PHP 7. Le rapport présente les détails du projet ainsi que son
+développement et ses résultats.
+
+\section{Abstract}
+\paragraph{}
+\setlength{\parindent}{2cm}
+The Donuts association needed to develop a digital platform for the Coopin project, which involves bringing together peers. Indeed, there is no previous platform. 
+\paragraph{}
+\setlength{\parindent}{2cm}
+The objective of the internship was to develop the first version of the website, the CoopinCook web application as well as the oversight of a team of developers for the development of the CoopinCoach web application. 
+\paragraph{}
+\setlength{\parindent}{2cm}
+The showcase site was made largely from a WordPress model. The language used for the features is PHP 7. The report presents the details of the project as well as its
+development and its results.
+\newpage
+
+\section{Introduction}
+présentation RAPIDE de la société et de la place du service du stagiaire dans cette structure.
+
+- présentation de la mission, des tâches effectuées. Description plus détaillée d'une tâche.
+
+- difficultés rencontrées, solutions apportées ;
+
+- modalités de suivi du travail du stagiaire (rapports avec le tuteur, réunions, ...)
+
+- conclusion sur les apports du stage et les regrets qu'il laisse.
+
+- si c'est le cas, bilan sur l'intégration avec les autres membres de l'équipe.
+
+- Nombre de pages : intentionnellement, le nombre n'est pas impose. Néanmoins une fourchette large pourrait être un nombre de pages compris entre 15 et 30. Le rapport doit être envoyé par mail à votre tuteur + 1 exemplaire papier déposé au secrétariat le vendredi 7 juin au plus tard.
+\section{Présentation}
+\subsection{Coopin:}
+\paragraph{}
+\setlength{\parindent}{2cm}
+bbh
+\subsection{CoopinCoach:}
+\paragraph{}
+\setlength{\parindent}{2cm}
+bhibkb
+\subsection{CoopinCook:}
+\paragraph{}
+\setlength{\parindent}{2cm}
+bibi
+
+\section{Définition:}
+\subsection{Site vitrine coopin.io :}
+\paragraph{}
+\setlength{\parindent}{2cm}
+On a commencer par version basique sur une template gratuite sur Wordpress. Il a fallut deux semaine pour la réalisation de la premiere version du site. Mais en raisons de contexte, il fallait que les images sois toutes rondes, et le texte sois réduit au maximum. A l'aide du plug-in Elemantor et dès que le nouveau contenu était près, on a changer tout les menu en créant de nouvelles pages avec un nouveau contenu. J'ai pu integré du code Css pour la gestion des couleurs et des gras du texte. Mais ensuite on a choisis de partir sur une solution payante en achetant la version Pro de la template. Sa nous a permis d'avoir un contenu plus argonomique. J'ai pu integré le module Contact que j'ai developpé en PHP et qui permet un envoi de mails directement à partir du site web. Enfin, j'ai ajouté une page blog pour la publication d'un contenu régulier sur toutes l’actualité en relation avec l’activité.
+Grace à Typeform, j’ai pu integré un formulaire d’inscription dynamique et fluide pour permettre de faire enregistrer tout les clients potentiels désireux de ce service. Un mail leur sera envoyé automatiquement après l’inscription pour les remerciers et leur promettre que l’equipe fait tout se qui est à leur disposition pour mettre en place le service au plus vite.
+
+\paragraph{}
+\setlength{\parindent}{2cm}
+Page d’accueil :
+Team :
+Vision :
+Mission :
+Action :
+News :
+Blog :
+
+\subsection{Landing pages:}
+\paragraph{}
+\setlength{\parindent}{2cm}
+ Dans le domaine de la publicité sur Internet, une page de renvoi est une page Web publicitaire vers laquelle renvoie un hyperlien, à la suite d'un clic de l'internaute sur une publicité en ligne ou dans un courriel commercial. Le rôle de cette page est de compléter, de confirmer ou de renforcer l'offre initiale.
+J'ai pu réalisé trois Landings qui présente un meme format mais avec un contenu diffirent pour tester quel message à le plus d'impacte et quel service interesse le plus les personnas qu'on a fait.\\%
+Grace à l'outil Instapage, qui simple d'utilisation et offre de nombreux plug-in notamment HeatMap pour savoir sur quel niveau et quel bouton les clients cliquent le plus.
+Une Landing est composé de tois niveau avec trois « Call to Action ». Le premiers visuel c’est un court message expliquant le service se qu’on appelle la « One sentence » ensuite un « Call to Action » qui est un petit message avec un bouton qui incite le visiteur à cliquer ou à rentrer son adresse mail.
+
+\subsection{The Family}
+\paragraph{}
+\setlength{\parindent}{2cm}The Family est une entreprise française fondée en 2013 par Alice Zagury, Oussama Ammar et Nicolas Colin. Elle a accueilli act
+Son but est de promouvoir l'émergence d'un écosystème de startups européennes dans le champ de l'économie numérique.
+L'entreprise fournit aux startups de son portefeuille de l'accompagnement, des services et en contrepartie entre à leur capital.
+Les locaux de l'entreprise accueillent des conférences qui visent à promouvoir l'entrepreneuriat et le thème de la transition numérique. Les vidéos de ces rencontres sont publiées en ligne.
+
+\subsection{Les Plugins}
+\paragraph{}
+\setlength{\parindent}{2cm}
+ Les Plugins sont des outils pour étendre les fonctionnalités de WordPress, un moteur de blog. Le cœur du système a été pensé pour être simple, pour maximiser la flexibilité et minimiser les tâches de code. Les Plugins offrent des fonctions sophistiquées et des fonctionnalités pour que chaque utilisateur puisse l'adapter aux besoins spécifiques de son site.
+
+\subsection{Chef de projet technique:}
+\paragraph{}
+\setlength{\parindent}{2cm}
+Je m'occupais de la supervision et l'avancement de l’AppWeb CoopinCoach développer par l’équipe LPWD de l'université de Cergy Pontoise du site Gennevilliers.
+Cependant, j’ai fais deux points d’avancement avec eux sur les lieux pour suivre l’avancer du projet et veiller au respect du cahier des charges et apporter des modifications en cas de nécessité. À chaque point je rédige un rapport de réunion. Ainsi,  en cas de difficultés ou de nouvelles suggestions je pouvais les rapporter pour apporter des solutions rapidement. 
+On utilise Slack pour s’échanger et suivre avec l’équipe régulièrement. Leur livret final étant pour le 31 mai. 
+
+\subsection{Wordpress:}
+\paragraph{}
+\setlength{\parindent}{2cm}
+ C'est le CMS qu'on a choisis pour la réalisation du site vitrine http://www.coopin.io (.tech)
+C’est un système de gestion de contenu gratuit, libre et open-source. Ce logiciel écrit en PHP repose sur une base de données MySQL .
+Il offre entre autre de nombreux plug-in qui simplifient et ouvre son champ de possibilité. Il nous a permis de gagner un temps conséquent de développement.
+
+\subsection{Elemantor:}
+\paragraph{}
+\setlength{\parindent}{2cm}
+ Elementor est le meilleur WordPress Page Builder, avec plus de 2000000 installations actives. Il permet de créez de beaux sites Web en utilisant une interface simple et intuitive par glisser-déposer. Il permet aussi d’ajouter du code Html/Css qui le rend vraiment plus intéressent et adaptable à beaucoup de besoins visuels.
+
+mise en forme, animation, compteur
+
+\subsection{Smart slider:}
+\paragraph{}
+\setlength{\parindent}{2cm}
+ C'est un Plug-in Wordpress qui m'a permis la créations de tout les slides du site vitrine. Il dispose de nombreuse fonctionnalitées notamment, le défilement automatique des images, 
+ 
+ \subsection{Typeform:}
+\paragraph{}
+\setlength{\parindent}{2cm}
+ C'est un module de création de furmulaire dynamique très attirant et simple d'utilisation. Il permet l'extraction des données en plusieurs format avec la version payante. Il est adaptable presque sur tout les envirenoments vu qu'après création on peux extraire le code directement et l'adapter sur plusieurs plateformes. 
+
+\subsection{Instapage:}
+\paragraph{}
+\setlength{\parindent}{2cm}
+ C'est le module que j'ai choisis pour la création des Landing Pages en vu des nombreux Plug-in qui s'adapte à lui. Il permet une analyse direct(Nombre de visiteur, trackage client, stockage d'emails...)
+
+\subsection{Heatmap et Hotjar:}
+\paragraph{}
+\setlength{\parindent}{2cm}
+ C'est un plug-in que j'ai synchroniser avec Instapage pour tracer les parcours clients sur les Landing pages et ainsi en déduire des modifications direct nécéssaire en ce basant sur se qui a le contenu le plus impactant au moins intéressant.
+
+
+\subsection{Wp admin:}
+\paragraph{}
+\setlength{\parindent}{2cm}
+ C'est un Plug-in Wordpress gratuit qui permet la sécurisation de l'espace administrateur du site. Il réduit les accès ainsi que le nombre de tentative de connexion. 
+
+\subsection{Contact:}
+\paragraph{}
+\setlength{\parindent}{2cm}
+ Envoi d'email directement par le site. Module que j'ai developpé en PHP.
+gimp: C'est le logeciel que j'ai choisis pour la retouche d'image du site et de l'application android.
+
+\subsection{Mobile menu:}
+\paragraph{}
+\setlength{\parindent}{2cm}
+bubhjbj
+\section{Organisation:}
+\paragraph{}
+\setlength{\parindent}{2cm}
+Pour l’organisation et la communication entre les membres de l’équipe on a mit en place plusieurs systeme. Un Keep google pour la définition des taches de chaqu’un.
+On a ouvert un compte drive avec plusieurs rebique pour sauvegarder tout les documents nécessaires.  
+Pour la communication, on a créer un groupe Whatsapp général« Coopin » ou tout les membres y figures. Ensuite, des groupes plus restreint comme « Site web » où on parler specialement que du site internet, « Landings pages » etc...
+ 
+ \subsection{Growth hacking : }
+\paragraph{}
+\setlength{\parindent}{2cm}
+J’ai fais plusieurs heures de formations en ligne sur le Growth Hacking notamment sur le site Koudetat qui propose un contenu riche qui est issu de l’expérience des entrepreneur qui font partie de TheFamilly.
+Le  Growth Hacking est une activité consistant à « activer la croissance » d'une entreprise, notamment d’une startup, par un ensemble de techniques de marketing permettant d'accélérer rapidement et significativement la croissance de son chiffre d’affaires.
+site vitrine
+
+\subsection{Cahier des charges:}
+\paragraph{}
+\setlength{\parindent}{2cm}
+ Rédaction du CC de la version 2 de CoopinCoach sur mobile. C'est une application mobile qui sera developper pour etre compatible en Android et en iOS.
+Réalisation du cahier des charges de la version zéro de CoopinCook en se basant sur une application existante "Les secrets du poid".
+
+\paragraph{}
+\setlength{\parindent}{2cm}
+Certains de ces modules sont viennent des recommendation externes et d'autres que j'ai découvert moi meme grace à mes recherche et les contraintes du moment.
+
+\subsection{Typeform :}
+\paragraph{}
+\setlength{\parindent}{2cm}
+est un logiciel en ligne basé à Barcelone, spécialisé dans la création de formulaires en ligne et les enquêtes en ligne. Son logiciel principal crée des formulaires dynamiques basés sur les besoins des utilisateurs. Le logiciel Typeform a été utilisé par Apple, Airbnb, Uber et Nike...etc
+\paragraph{}
+\setlength{\parindent}{2cm}
+Il permet aussi d’optimisez les interactions de la marque avec les formulaires de nouvelle génération. Taux d'achèvement élevés. Pas de codage nécessaire. Commencez gratuitement. Mobile Friendly. Beaux dessins. Facile à utiliser. Belle UX. Types: formulaires d’enregistrement, sondages sur paille, enquêtes, questionnaires, questionnaires, sauts logiques…
+
+\subsection{Application mobile V2 CoopinCoach}
+\paragraph{}
+\setlength{\parindent}{2cm}
+Application mobile V2 CoopinCoach
+\subsection{Application web V0 CoopinCook}
+\paragraph{}
+\setlength{\parindent}{2cm}
+Application web V0 CoopinCook
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=1.7]{universe}
+\caption{The Universe}
+\label{fig:universe}
+\end{figure}
+
+\section{Synthèse du travail}
+\paragraph{}
+\setlength{\parindent}{2cm}
+Je suis satisfaite du travail que j’ai fourni et de son résultat. Cependant,
+toutes mes idées d’amélioration n’ont pu être intégrées par manque de temps.
+\paragraph{}
+\setlength{\parindent}{2cm}
+Il s’avère aussi qu’il reste des bugs que je n’ai pas pu résoudre ou que j’ai découverts trop tard. Dans la documentation pour webmaster, j’ai fourni assez
+de contenu sur des modifications et améliorations pour créer un nouveau sujet
+de stage. La différence entre ma planification prévisionnelle et le déroulement
+réel a été très importante et j’en suis assez déçue. En effet, je ne connaissais
+pas assez le concept des écoles d’été et les technologies à disposition pour
+avancer aussi vite que je l’avais prévu.
+En conclusion, ce stage m’a permis de faire évoluer ..............................
+\paragraph{}
+\setlength{\parindent}{2cm}
+Ce stage m’a beaucoup plu et m’a donné envie de continuer à développer
+des sites web avec cette technologie que j’ai découverte qui est ASP.NET
+Web Forms associé au langage C#.
+\end{document}
+
